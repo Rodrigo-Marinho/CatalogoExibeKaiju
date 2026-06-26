@@ -72,7 +72,7 @@ fun CatalogoApp(modifier: Modifier = Modifier) {
 
         Button(
             onClick = {
-                if (email.isBlank() || password.isBlank()) {
+                if (email == "Rodrigo" && password == "1234") {
                     val intent = Intent(context, Catalogo::class.java)
                     context.startActivity(intent)
                 }
